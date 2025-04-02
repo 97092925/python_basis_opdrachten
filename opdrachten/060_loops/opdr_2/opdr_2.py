@@ -1,10 +1,6 @@
-# Opdracht 2 loops
-# Naam student:
-# Groep:
+# Gebruik een for-loop en range om de lijst te maken
+lijst = [i for i in range(10, 60, 10)]
 
-# Hier komt je code...
-
-# Hier start de for-loop
-
-my_list = []
+# Print de lijst
+print(lijst)
 
