@@ -1,13 +1,9 @@
-# Opdracht 1 functies
-# Naam student:
-# Groep:
+def write_to_file(bestandsnaam, tekst):
+    # Open het bestand in 'append' modus, zodat we tekst toevoegen zonder het bestand te overschrijven
+    with open(bestandsnaam, "a") as bestand:
+        bestand.write(tekst + "\n")  # Voeg een nieuwe regel toe na de tekst
 
-
-def write_to_file(afile, atext):
-    # je code komt hier
-    # het woordje pass hieronder kun je weghalen
-    pass
-
-my_tekst = "Schrijf dit maar even in een bestandje"
+# Voorbeeld van het gebruik van de functie
+my_tekst = "test bestandje"
 my_file = "test.txt"
 write_to_file(my_file, my_tekst)
